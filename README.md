@@ -51,6 +51,18 @@ webpack                           4.29.0
 ~~~
 
 
+~~~
+==> ng generate component about
+~~~
+
+~~~
+==> ng generate component contact
+~~~
+
+~~~
+==> ng generate service data
+~~~
+
 ### Links
 
 https://coursetro.com/posts/code/171/Angular-7-Tutorial---Learn-Angular-7-by-Example

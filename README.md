@@ -2,6 +2,8 @@
 
 A dashboard management portal written in Angular 7
 
+
+(https://raw.githubusercontent.com/arunabhdas/bordeaux/master/bordeaux_1.png "Screenshot")
 ==> ng version
 
 Angular CLI: 7.3.6

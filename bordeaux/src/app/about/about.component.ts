@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  singleUnknownResponse: Object;
+
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getSingleUnknownResponse().subscribe(data => {
+      this.singleUnknownResponse = data[0];
+      console.log(this.singleUnknownResponse);
+    }) 
   }
 
 }

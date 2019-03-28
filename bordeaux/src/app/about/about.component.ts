@@ -8,13 +8,13 @@ import { DataService } from '../data.service';
 })
 export class AboutComponent implements OnInit {
 
-  singleUnknownResponse: Object;
+  singleUnknownResponse: any;
 
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
     this.dataService.getSingleUnknownResponse().subscribe(data => {
-      this.singleUnknownResponse = data[0];
+      this.singleUnknownResponse = data;
       console.log(this.singleUnknownResponse);
     }) 
   }

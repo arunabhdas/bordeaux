@@ -63,6 +63,21 @@ webpack                           4.29.0
 ==> ng generate service data
 ~~~
 
+Build for DEV
+~~~
+==> ng serve -o
+~~~
+
+Build for STAGING
+~~~
+==> ng build
+~~~
+
+Build for PROD
+~~~
+==> ng build --prod
+~~~
+
 ### Links
 
 https://coursetro.com/posts/code/171/Angular-7-Tutorial---Learn-Angular-7-by-Example

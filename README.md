@@ -1,6 +1,6 @@
 # bordeaux
 
-
+A dashboard management portal written in Angular 7
 
 ==> ng version
 
